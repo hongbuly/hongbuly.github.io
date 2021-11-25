@@ -6,6 +6,7 @@ url:                 https://hongbuly.github.io
 # baseurl:             ''
 paginate:            5
 permalink:           pretty
+comments:            true
 
 # About/contact
 author:
