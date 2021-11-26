@@ -8,9 +8,8 @@
 ###### 지금 사진은 이미 만들어져 있어서 그렇다. 처음 만들면 정상적으로 생성할 수 있다.
 <img src="images/git02.png" width="60%" height="60%">
 
-#### git을 설치하고 HTTPS 형식으로 git clone을 한다.
+#### git을 설치하고 HTTPS 형식으로 git clone을 한다. [Git 설치 링크](https://git-scm.com/downloads)
 ###### Github Desktop을 설치하면 GUI로 git을 관리할 수 있어 CLI보다 친근하다.
-[Git 설치 링크](https://git-scm.com/downloads)
 <img src="images/git03.png" width="60%" height="60%">
 
 #### 원하는 디렉터리로 이동하여 git bash를 실행시켜 명령어로 git clone <HTTPS 주소> 라고 적는다.
