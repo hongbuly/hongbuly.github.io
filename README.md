@@ -4,7 +4,7 @@
 #### Github 사이트에 들어가서 왼쪽 상단 new 버튼을 눌러 새로운 저장소를 만든다.
 <img src="images/git01.png" width="60%" height="60%">
 
-#### Repository 이름을 <username>.github.io 로 하고 Public으로 생성한다.   
+#### Repository 이름을 `<username>.github.io` 로 하고 Public으로 생성한다.   
 ###### 지금 사진은 이미 만들어져 있어서 그렇다. 처음 만들면 정상적으로 생성할 수 있다.
 <img src="images/git02.png" width="60%" height="60%">
 
@@ -12,7 +12,7 @@
 ###### Github Desktop을 설치하면 GUI로 git을 관리할 수 있어 CLI보다 친근하다.
 <img src="images/git03.png" width="60%" height="60%">
 
-#### 원하는 디렉터리로 이동하여 git bash를 실행시켜 명령어로 git clone <HTTPS 주소> 라고 적는다.
+#### 원하는 디렉터리로 이동하고 git bash를 실행시킨다. 그리고 명령어로 git clone <HTTPS 주소> 라고 적는다.
 
     $ git clone https://github.com/hongbuly/hongbuly.github.io.git
 
@@ -37,7 +37,7 @@
 
 <hr/>
 
-#### 개발을 할 때 기능을 추가하거나 에러를 처리하는 등 다양한 일들을 할 수 있다.   그럴 때 코드의 흐름을 분산시켜 더욱 효율적인 개발을 가능하도록 해주는 개념이 **Branch**이다.   기본으로 main branch가 존재한다.
+#### 개발을 할 때 기능을 추가하거나 에러를 처리하는 등 다양한 일들을 할 수 있다.   그럴 때 코드의 흐름을 분산시켜 더욱 효율적인 개발을 가능하도록 해주는 개념이 `Branch`이다.
 
 #### branch 생성하는 명령어
 
