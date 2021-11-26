@@ -4,6 +4,58 @@
 #### Github 사이트에 들어가서 왼쪽 상단 new 버튼을 눌러 새로운 저장소를 만든다.
 <img src="images/git01.png" width="60%" height="60%">
 
+#### Repository 이름을 <username>.github.io 로 하고 Public으로 생성한다.   
+###### 지금 사진은 이미 만들어져 있어서 그렇다. 처음 만들면 정상적으로 생성할 수 있다.
+<img src="images/git02.png" width="60%" height="60%">
+
+#### git을 설치하고 HTTPS 형식으로 git clone을 한다.
+###### Github Desktop을 설치하면 GUI로 git을 관리할 수 있어 CLI보다 친근하다.
+[Git 설치 링크](https://git-scm.com/downloads)
+<img src="images/git03.png" width="60%" height="60%">
+
+#### 원하는 디렉터리로 이동하여 git bash를 실행시켜 명령어로 git clone <HTTPS 주소> 라고 적는다.
+
+    $ git clone https://github.com/hongbuly/hongbuly.github.io.git
+
+#### 이제 git <명령어>를 통해서 git을 관리할 수 있다.
+<img src="images/git04.png" width="60%" height="60%">
+
+#### 현재 Git 상태 확인 명령어
+
+    $ git status
+
+#### commit을 위해 Staging Area에 파일을 올리는 명령어
+
+    $ git add README.md
+
+#### commit 메시지를 적고 commit 하는 명령어
+
+    $ git commit -m "add README.md"
+
+#### commit 기록 확인하기
+
+    $ git log
+
+<hr/>
+
+#### 개발을 할 때 기능을 추가하거나 에러를 처리하는 등 다양한 일들을 할 수 있다.   그럴 때 코드의 흐름을 분산시켜 더욱 효율적인 개발을 가능하도록 해주는 개념이 **Branch**이다.   기본으로 main branch가 존재한다.
+
+#### branch 생성하는 명령어
+
+    $ git branch <branch_name>
+
+#### 현재 작업중인 branch 전환하는 명령어
+
+    $ git checkout <branch_name>
+
+#### branch를 main에 병합시키는 명령어
+
+    $ git merge <branch_name>
+
+#### branch 삭제하는 명령어
+
+    $ git branch -d <branch_name>
+
 ## 이미 만들어진 Lanyon 테마 웹사이트에서 시작하기
 1. Lanyon 테마의 원격 저장소 내용을 다운받는다.   
 [Lanyon 원격 저장소 링크](https://github.com/poole/lanyon)
