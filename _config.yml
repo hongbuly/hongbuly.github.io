@@ -1,12 +1,12 @@
 # Setup
-title:               Hongbuly
-tagline:             'Hongbuly blog'
+title:               Hongbuly # 페이지 상단에 뜨는 이름
+tagline:             'Hongbuly blog' # title 옆에 뜨는 이름
 description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://hongbuly.github.io
+url:                 https://hongbuly.github.io # 웹주소
 # baseurl:             ''
 paginate:            5
 permalink:           pretty
-comments:            true
+comments:            true # 댓글 허용
 
 # About/contact
 author:
@@ -18,7 +18,7 @@ author:
 plugins:
   - jekyll-paginate
 
-# Custom vars
+# Custom vars 댓글 기능
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
 comment:
