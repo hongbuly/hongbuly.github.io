@@ -2,7 +2,7 @@
 
 ## git에 저장소 만들기
 #### Github 사이트에 들어가서 왼쪽 상단 new 버튼을 눌러 새로운 저장소를 만든다.
-<img src="images/git01.png" width="30%" height="30%">
+<img src="images/git01.png" width="60%" height="60%">
 
 ## 이미 만들어진 Lanyon 테마 웹사이트에서 시작하기
 1. Lanyon 테마의 원격 저장소 내용을 다운받는다.   
