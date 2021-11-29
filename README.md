@@ -87,6 +87,67 @@ comments: true # 댓글 허용
 
 ## 댓글 기능 추가하기
 #### post 글에 Disqus를 이용해 간단히 추가할 수 있다.
-#### 먼저 회원가입을 한다.
+- 먼저 회원가입을 한다.
 <img src="images/disqus01.png" width="60%" height="60%">
 <img src="images/disqus02.png" width="60%" height="60%">
+
+- 로그인 후 GET STARTED 버튼을 누른다.
+<img src="images/disqus03.png" width="60%" height="60%">
+<img src="images/disqus04.png" width="60%" height="60%">
+
+- 여기서 웹사이트 이름을 잘 기억해 두어야 한다.
+##### 이미 존재하는 이름을 사용하면 뒤에 "-숫자"가 더 붙는다.
+<img src="images/disqus05.png" width="60%" height="60%">
+
+- platform으로 jekyll을 선택한다.
+<img src="images/disqus06.png" width="60%" height="60%">
+
+- post 글 처음에 어떻게 써야 하는지 알려준다.
+##### 위에 포스트 글 쓰는 방법에서 언급된 부분이다. 
+<img src="images/disqus07.png" width="60%" height="60%">
+
+- github.io 웹사이트 주소를 적는다.
+<img src="images/disqus08.png" width="60%" height="60%">
+
+- 마무리 버튼까지 누른다. 
+<img src="images/disqus09.png" width="60%" height="60%">
+
+#### 이제 _config.yml 파일에 다음과 같은 코드를 추가한다.
+##### 전체 코드는 앞서 소개되었다.
+
+    # Custom vars 댓글 기능
+    version:             1.1.0
+    google_analytics_id: #UA-XXXX-Y
+    comment:
+      provider: "disqus"
+      disqus:
+        shortname: "hongbuly"
+
+#### _layouts 디렉터리에 post.html 파일에도 다음과 같은 코드를 추가한다.
+##### s.src 부분에 내 이름이 포함되어서 수정됬는지 확인이 필요하다.
+
+    {% if page.comments %}
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    let PAGE_URL = "{{ site.url }}{{ page.url }}"
+    let PAGE_IDENTIFIER = "{{page.url}}"
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://hongbuly.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    {% endif %}
+
+#### 다음과 같은 결과가 나온다.
+<img src="images/disqus10.png" width="60%" height="60%">
