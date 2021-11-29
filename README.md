@@ -59,3 +59,37 @@ comment:
     shortname: "hongbuly"
 </code>
 </pre>
+
+## sidebar.html 파일 수정하기
+#### 왼쪽 사이드바에 Download, Github project가 있는데 불필요해서 다음과 같은 코드를 주석처리 해주었다.
+<pre>
+<code>
+<a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+</code>
+</pre>
+
+## _posts 디렉토리에 post 글 추가하기
+#### 글을 쓰고 싶을 때, _posts 디렉토리에 "년도-월-일-이름.md"로 파일을 생성해서 작성해야 한다.
+##### "-"를 빼먹거나 형식이 틀리지 않게 주의해야 한다.
+
+    2021-11-25-Git&Github.md
+
+#### 파일 상단에 다음과 같은 내용을 쓴 다음 글을 써야 한다.
+<pre>
+<code>
+---
+layout: post
+title: Git&Github # 글 제목
+date: 2021-11-25 16:30:59 +0900 # 날짜와 시간
+categories: jekyll update
+comments: true # 댓글 허용
+---
+</code>
+</pre>
+
+## 댓글 기능 추가하기
+#### post 글에 Disqus를 이용해 간단히 추가할 수 있다.
+#### 먼저 회원가입을 한다.
+<img src="images/disqus01.png" width="60%" height="60%">
+<img src="images/disqus02.png" width="60%" height="60%">
