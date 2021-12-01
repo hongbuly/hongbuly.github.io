@@ -11,7 +11,7 @@ comments: true
 [Google_Ad 링크](https://www.google.com/intl/ko_kr/adsense/start/)
 
 #### 위 사이트에서 시작하기를 눌러 홈페이지 url을 적습니다.
-<img src="images/adsense01.png" width="60%" height="60%">
+<img src="../images/adsense01.png" width="60%" height="60%">
 
 #### 그 다음 결제 프로필을 작성해야 합니다.
 <img src="images/adsense02.png" width="60%" height="60%">
