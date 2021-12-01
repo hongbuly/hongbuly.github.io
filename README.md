@@ -173,12 +173,12 @@ comments: true # 댓글 허용
 ## Google Adsense 활용하기
 [Google_Ad 링크](https://www.google.com/intl/ko_kr/adsense/start/)
 
-#### 위 사이트에서 시작하기를 눌러 홈페이지 url을 적습니다.
-#### 그 다음 단계에 따라 결제 프로필을 작성해야 합니다.
+#### 위 사이트에서 시작하기를 눌러 홈페이지 url을 적는다.
+#### 그 다음 단계에 따라 결제 프로필을 작성해야 한다.
 <img src="images/adsense01.png" width="60%" height="60%">
 
-#### 에드센스에 사이트 연결하는 단계를 따라가 코드를 복사하여 head.html 파일 안에 붙여넣기 합니다.
+#### 에드센스에 사이트 연결하는 단계를 따라가 코드를 복사하여 head.html 파일 안에 붙여넣기 한다.
 <img src="images/adsense02.png" width="60%" height="60%">
 <img src="images/adsense03.png" width="60%" height="60%">
 
-#### 사이트의 광고 개재 가능 여부를 검투하는데 며칠 걸립니다.
+#### 사이트의 광고 개재 가능 여부를 검투하는데 며칠 걸린다.
