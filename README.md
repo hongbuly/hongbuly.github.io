@@ -20,10 +20,22 @@
 #### 이제 git <명령어>를 통해서 git을 관리할 수 있다.
 <img src="images/git04.png" width="60%" height="60%">
 
+#### 처음에 git push를 통해 원격저장소에 반영하려면 토큰을 통해 로그인해야 한다.
+#### Settring -> Developer settings -> Personal access tokens -> Generate new token
+<img src="images/pages01.png" width="60%" height="60%">
+
+#### 이제 PAT 번호를 통해 로그인하면 된다.
+#### 페이지 설정 확인을 하는 방법은 다음과 같다.
+#### Repository Settings -> Pages
+<img src="images/pages02.png" width="60%" height="60%">
+
 ## 이미 만들어진 Lanyon 테마 웹사이트에서 시작하기
 1. Lanyon 테마의 원격 저장소 내용을 다운받는다.   
 [Lanyon 원격 저장소 링크](https://github.com/poole/lanyon)
-2. hongbuly.github.io 라는 저장소에 해당 내용을 넣는다.
+2. hongbuly.github.io 라는 로컬 저장소에 해당 내용을 넣는다.
+3. 다음과 같은 명령어로 원격 저장소에도 해당 내용을 올린다.
+
+    $ git add *
 
 ## _config.yml 파일 수정하기
 #### 탬플릿의 dummy 정보가 아닌 나의 웹사이트 정보로 교체하는 일이 필요하다.  
