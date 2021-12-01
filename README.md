@@ -72,7 +72,7 @@ comment:
 </code>
 </pre>
 
-## 웹페이지 대표 이미지 변경하기
+## 웹페이지 대표 이미지(favicon) 변경하기
 #### public 디렉토리 안에 favicon.ico 파일을 변경하면 된다.
 [ico 파일 변환 사이트](https://convertio.co/kr/png-ico/)
 
@@ -80,15 +80,6 @@ comment:
 
 ## sidebar.html 파일 수정하기
 #### 왼쪽 사이드바에 about, Download, Github project가 있는데 불필요해서 다음과 같은 코드를 주석처리 해주었다.
-
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
