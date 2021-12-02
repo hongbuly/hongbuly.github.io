@@ -1,7 +1,7 @@
 # Setup
 title:               Hongbuly # 페이지 상단에 뜨는 이름
 tagline:             'Hongbuly blog' # title 옆에 뜨는 이름
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. This blog made by hongbuly.'
 url:                 https://hongbuly.github.io # 웹주소
 # baseurl:             ''
 paginate:            5
