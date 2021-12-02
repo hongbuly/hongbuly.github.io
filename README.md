@@ -185,4 +185,12 @@ comments: true # 댓글 허용
 <img src="images/adsense02.png" width="60%" height="60%">
 <img src="images/adsense03.png" width="60%" height="60%">
 
+    <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2020567160564101"
+     crossorigin="anonymous"></script>
+     .
+     .
+     .
+     </head>
+
 #### 사이트의 광고 개재 가능 여부를 검투하는데 며칠 걸린다.
