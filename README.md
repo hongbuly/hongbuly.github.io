@@ -36,6 +36,8 @@
 3. 다음과 같은 명령어로 원격 저장소에도 해당 내용을 올린다.
 
     $ git add *
+    $ git commit -m "Initial setup"
+    $ git push
 
 ## _config.yml 파일 수정하기
 #### 탬플릿의 dummy 정보가 아닌 나의 웹사이트 정보로 교체하는 일이 필요하다.  
@@ -45,7 +47,7 @@
 # Setup
 title:               Hongbuly # 페이지 상단에 뜨는 이름
 tagline:             'Hongbuly blog' # title 옆에 뜨는 이름
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. This blog made by hongbuly.'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme. This blog made by hongbuly.'  # 사이드바 설명
 url:                 https://hongbuly.github.io # 웹주소
 # baseurl:             ''
 paginate:            5
@@ -79,7 +81,7 @@ comment:
 #### hongbuly.github.io 사이트는 키위새 사진이다.
 
 ## sidebar.html 파일 수정하기
-#### 왼쪽 사이드바에 about, Download, Github project가 있는데 불필요해서 다음과 같은 코드를 주석처리 해주었다.
+#### 왼쪽 사이드바에 Download, Github project가 있는데 불필요해서 다음과 같은 코드를 주석처리 해주었다.
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
