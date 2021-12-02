@@ -36,7 +36,9 @@
 3. 다음과 같은 명령어로 원격 저장소에도 해당 내용을 올린다.
 
     $ git add *   
+
     $ git commit -m "Initial setup"   
+    
     $ git push   
 
 ## _config.yml 파일 수정하기
