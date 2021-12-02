@@ -35,9 +35,9 @@
 2. hongbuly.github.io 라는 로컬 저장소에 해당 내용을 넣는다.
 3. 다음과 같은 명령어로 원격 저장소에도 해당 내용을 올린다.
 
-    $ git add *
-    $ git commit -m "Initial setup"
-    $ git push
+    $ git add *   
+    $ git commit -m "Initial setup"   
+    $ git push   
 
 ## _config.yml 파일 수정하기
 #### 탬플릿의 dummy 정보가 아닌 나의 웹사이트 정보로 교체하는 일이 필요하다.  
