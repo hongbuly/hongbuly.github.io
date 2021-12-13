@@ -199,4 +199,5 @@ comments: true # 댓글 허용
 ## Google Analytics 활용하기
 [Google Analytics 시작 링크](https://analytics.google.com/analytics/web/?authuser=4#/provision)
 
-#### 구글 Analytics를 통해 방문자 수를 알 수 있고, Adsense랑 연결할 수도 있다. 자세한 적용방법은 본 사이트의 post 참고.
+#### 구글 Analytics를 통해 방문자 수를 알 수 있고, Adsense랑 연결할 수도 있다. 
+#### 자세한 적용방법은 본 사이트의 post 참고.
