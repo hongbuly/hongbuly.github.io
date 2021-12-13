@@ -35,15 +35,5 @@ comments: true
 #### 중앙 쯤에 전체 사이트 태크 부분을 클릭하여 위와 같은 코드를 복사하세요.
 #### head.html 파일에 <head> 부분 아래에 붙여넣으세요.
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N3002JZJN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-2N3002JZJN');
-    </script>
-
 ![analytics09](/assets/images/analytics09.png)
 #### 우측을 보면 제가 사이트를 방문한 기록때문에 1명이 방문했다고 나옵니다.
